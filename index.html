@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Portfólio</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+        <div class="hamburguer">
+          <div class="line" id="line1"></div>
+          <div class="line" id="line2"></div>
+          <div class="line" id="line3"></div>
+          <span>fechar</span>
+        </div>  
+
+        <header id="home">
+            <div class="img-wrapper">
+                <img src="imagens/bg.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>Full Stack Developer</h1>
+                <p>Ueverton Oliveira de Souza</p>
+                <button>Saiba mais</button>
+            </div>
+        </header>
+
+        <aside class="sidebar">
+          <nav>
+            <ul class="menu">
+              <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+              <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+              <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+              <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+              <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
+            </ul>
+          </nav>
+          <div class="social-media">
+            <a href="https://www.facebook.com/ueverton.olivera/"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/Ueverton-oliveira"><i class="fab fa-github-alt"></i></a>
+            <a href="https://www.linkedin.com/in/ueverton-oliveira-78a81113b/"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </aside>
+
+        <section class="sessao-conhecimentos" id="conhecimentos">
+          <div class="sessao-header">
+            <h1>Conhecimentos</h1>
+          </div>
+          <div class="conhecimentos">
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>A base de todo desenvolvimento Web é um bom HTML. É mais do que aprender tags, é saber a importância de um código semântico e bem estruturado. Em cima disso, aplico o layout CSS.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p> O mundo evoluiu, novas exigências surgiram e a Web cresceu junto. Com isso mergulhai nas técnicas e tecnologias mais recentes, desde pré-processamento de CSS com SASS, ferramentas de debug e layouts avançados com flexbox de multidispositivo. </p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fas fa-gem"></i>
+                <h3>Ruby on Rails</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>A linguagem Ruby foi minha primeira linguagem de programação e estou nela até hoje. Gosto muito de trabalhar com Ruby e o framework Rails que torno o processo de criação de software prazeroso e bastante agil.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-js"></i>
+                <h3>Javascript</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p> Utilizo JavaScript para controlar o HTML e o CSS e para manipular comportamentos na página. Aqui nesta página foi utilizado nos menus. Todo esse comportamento quem vai executar é o JavaScript.
+                </p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-bootstrap"></i>
+                <h3>Bootstrap</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript, melhorando a experiência do usuário em um site amigável e responsivo.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-github"></i>
+                <h3>Git e GitHub</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Git e Github são utilizados no meu dia a dia de desenvolvimentoe me ajudam na criação de software por um motivo bem simples: ter uma forma fácil de gerenciar o código fonte da aplicação, do sistema, do produto.</p>
+              </div>
+            </div>
+            <div class="conhecimentos-img-wrapper">
+              <img src="imagens/conhecimentos.png" alt="imagem conhecimento">
+            </div>
+          </div>
+        </section>
+
+        <div class="sessao-projetos" id="projetos">
+          <div class="sessao-header">
+            <h1>Projetos</h1>
+          </div>
+          <div class="projetos">
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj1.jpg" alt="imagem do projeto ToDo" />
+              </div>
+              <div class="card-info">
+                <h2>E-commerce</h2>
+                <h3>Ruby on Rails, React e React Native</h3>
+                <p>Projeto de um E-commerce Gamer desenvolvido para o curso da One Bit Code. Tendo API consumida pelo front-end todo em  React e para o desenvolvimento mobile com React Native</p>
+                <button class="btn"><a href="https://github.com/Ueverton-oliveira/Ecommerce_gamer">Saiba Mais</a></button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj2.jpg" alt="imagem do projeto Maratona" />
+              </div>
+              <div class="card-info">
+                <h2>Billing</h2>
+                <h3>Ruby on Rails, HTML, CSS, Bootstrap e JavaScript</h3>
+                <p>Este foi meu primeiro projeto financeiro desenvolvido para uma empresa chamada Binamik Tecnologia. Que tem como publico alvo o mercado de ecoturismo.</p>
+                <button class="btn"><a href="https://binamik.com.br/">Saiba Mais</a></button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj3.jpg" alt="imagem do projeto Casa Bela" />
+              </div>
+              <div class="card-info">
+                <h2>Healthy Care</h2>
+                <h3>Ruby on Rails, HTML e CSS</h3>
+                <p>Este projeto foi meu primeiro Hackathon e nele tivemos um prazo de uma semana para desenvolver um software monolito para atender um historicos e compartilhamento de consultas médicas</p>
+                <button class="btn"><a href="https://github.com/CaioFML/HealthyCare">Saiba Mais</a></button>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="sessao-contato" id="contato">
+          <div class="contato-wrapper">
+            <div class="contato-left"></div>
+            <div class="contato-right">
+              <h1>Contato</h1>
+              <form method="POST" action="./email.php">
+                <div class="input-group">
+                  <input type="text" class="field" name="name" id="nome">
+                  <label for="nome" class="field-label">Nome</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" class="field" name="email" id="email">
+                  <label for="email" class="field-label">E-mail</label>
+                </div>
+                <div class="input-group">
+                  <textarea class="field" name="message" id="mensagem"></textarea>
+                  <label for="mensagem" class="field-label">Mensagem</label>
+                </div>
+                <button type="submit" class="btn btn-submit">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="sessao-orcamento" id="orcamento">
+          <div class="orcamento-wrapper">
+            <h1>Faça um orçamento</h1>
+            <form>
+              <label for="qtde">Qtde de Páginas</label>
+              <input type="number" min="1" name="qtde" id="qtde">
+              <label for="js">Preciso de um script JS</label>
+              <input type="checkbox" name="js" id="js">
+              <label>Layout</label>
+              <div class="group-layout">
+                <div>
+                  <input type="radio" name="layout" id="layout-sim">
+                  <label for="layout-sim">Preciso de um layout</label>
+                </div>
+                <div>
+                  <input type="radio" name="layout" id="layout-nao">
+                  <label for="layout-nao">Já tenho um layout</label>
+                </div>
+              </div>
+              <label for="prazo">Prazo</label>
+              <input type="range" name="prazo" id="prazo" min="1" max="10">
+              <label id="preco">R$ 0,00</label>
+              <button class="btn btn-orcamento" type="submit">Enviar</button>
+            </form>
+          </div>
+        </section>
+
+        <footer>
+          <div class="footer-content">
+            <p>
+              Copyright &copy; 2020, ETECIA DS - Todos os diretos reservados
+            </p>
+            <div class="social-list">
+              <ul>
+                <li><a href="https://www.linkedin.com/in/ueverton-oliveira-78a81113b/"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.instagram.com/uevertonoli_/?hl=pt-br"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://github.com/Ueverton-oliveira"><i class="fab fa-github"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+        <a href="#home" id="link-topo">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+   </body>
+
+   <script src="script.js"></script>
+</html>
