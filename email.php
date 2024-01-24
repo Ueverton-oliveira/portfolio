@@ -25,6 +25,5 @@ if(mail("ueverton.souz@gmail.com", "Webmail dev",$corpoemail,$headers)){
 
 } else{
 
-      echo "<script>alert('Erro ao enviar, tente novamente!');</script>";	
-
+      echo "<script>alert('Erro ao enviar, tente novamente!');</script>";
 }
